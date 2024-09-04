@@ -8,7 +8,7 @@ public class Sumdigit {
         System.out.println("Input digits e.g 1234 and this function would sum the digits");
 
         Scanner num = new Scanner(System.in);
-        System.out.print("Enter the number: ");
+        System.out.println("Enter the number: ");
         number = num.nextInt();
         while(number > 0)
         {
