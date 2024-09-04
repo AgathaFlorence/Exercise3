@@ -3,7 +3,7 @@ package exercise3;
 import java.util.Scanner;
 
 public class Calculator {
-    public static void calculatenum() {
+    public static void calculateNum() {
         char operator;
         Double number1, number2, result;
 

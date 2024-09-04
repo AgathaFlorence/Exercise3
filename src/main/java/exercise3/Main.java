@@ -3,17 +3,25 @@ package exercise3;
 public class Main {
     public static void main(String[] args) {
 
+
+        Smallestnumber.smallestNumber();
+
+        Sortnumber.sortnumberArray();
+
         Vowel.countvowel();
 
-        Fibonacci.fibonacciseq();
+        Fibonacci.fibonacciSeq();
 
-        Reversestring.revstring();
+        Reversestring.revString();
 
-        Sumdigit.sumdigitnumber();
+        Sumdigit.sumDigitNumber();
 
-        Primenumber.isnumberprime();
+        Primenumber.isNumberpPime();
 
-        Calculator.calculatenum();
+        Calculator.calculateNum();
+
+
+
 
 
 

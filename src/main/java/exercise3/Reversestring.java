@@ -4,9 +4,9 @@ import java.util.Scanner;
 import java.io.*;
 
 public class Reversestring {
-    public static void revstring(){
+    public static void revString(){
         Scanner revword = new Scanner(System.in);
-        System.out.print("Enter the word to be reversed: ");
+        System.out.print("\n" + "Enter the word to be reversed: ");
         String str = revword.nextLine(), nstr="";
         char ch;
 
