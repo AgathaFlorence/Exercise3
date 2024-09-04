@@ -2,7 +2,7 @@ package exercise3;
 import java.util.Scanner;
 
 public class Sortnumber {
-    public static void sortnumberarray(){//Initialize array
+    public static void sortnumberArray(){//Initialize array
 
         int [] arr2 = new int[] {5,6,8,11,1};
 

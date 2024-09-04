@@ -3,19 +3,24 @@ package exercise3;
 public class Main {
     public static void main(String[] args) {
 
-        Sortnumber.sortnumberarray();
+        Smallestnumber.smallestNumber();
+
+        Sortnumber.sortnumberArray();
 
         Vowel.countvowel();
 
-        Fibonacci.fibonacciseq();
+        Fibonacci.fibonacciSeq();
 
-        Reversestring.revstring();
+        Reversestring.revString();
 
         Sumdigit.sumdigitnumber();
 
         Primenumber.isnumberprime();
 
         Calculator.calculatenum();
+
+
+
 
 
 

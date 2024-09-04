@@ -2,7 +2,7 @@ package exercise3;
 import java.util.Scanner;
 
 public class Fibonacci {
-    public static void fibonacciseq(){
+    public static void fibonacciSeq(){
        int n1 = 0, n2 = 1,n3, i;
 
        Scanner inputcount = new Scanner(System.in);
