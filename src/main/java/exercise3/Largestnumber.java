@@ -8,7 +8,7 @@ public class Largestnumber {
         int max = arr6[0];
         //Loop through the array
         for (int i = 0; i < arr6.length; i++) {
-            //Compare elements of array with min
+            //Compare elements of array with max
             if(arr6[i] >max)
                 max = arr6[i];
         }
