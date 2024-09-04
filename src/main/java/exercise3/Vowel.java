@@ -3,7 +3,7 @@ import java.io.*;
 import java.util.Scanner;
 
 public class Vowel {
-    public static void countvowel(){
+    public static void main(String[] args){
 
           Scanner inputvowelword = new Scanner (System.in);
             System.out.println("\n" + "Input the word for vowel count");

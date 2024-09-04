@@ -4,7 +4,7 @@ import java.util.Scanner;
 import java.io.*;
 
 public class Reversestring {
-    public static void revString(){
+    public static void main(String[] args){
         Scanner revword = new Scanner(System.in);
         System.out.print("\n" + "Enter the word to be reversed: ");
         String str = revword.nextLine(), nstr="";

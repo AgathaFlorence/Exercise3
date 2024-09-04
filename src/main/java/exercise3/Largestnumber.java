@@ -1,7 +1,7 @@
 package exercise3;
 
 public class Largestnumber {
-    public static void largestNumber(){
+    public static void main(String[] args){
         //Initialize array
         int [] arr6 = new int [] {25, 11, 7, 75, 56};
         //Initialize min with first element of array.
