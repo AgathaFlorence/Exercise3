@@ -20,7 +20,7 @@ public class Main {
 
         Calculator.calculateNum();
 
-        Anagram.anagramChecker();
+
 
 
 

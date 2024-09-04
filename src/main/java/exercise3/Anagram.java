@@ -3,20 +3,43 @@ package exercise3;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Anagram {
-    public static void anagramChecker(){
-        // create an object of Scanner class
-        Scanner input4 = new java.util.Scanner(System.in);
+public class Anagram{
+public static void main(String[] args) {
+    Scanner inputstr1 = new Scanner(System.in);
+    System.out.println("Enter the first word for anagram: ");
+    String str1 = inputstr1.nextLine();
 
-        // take input from users
-        System.out.print("Enter first String: ");
-        String str4 = input4.nextLine();
-        System.out.print("Enter second String: ");
-        String str5 = input4.nextLine();
+    Scanner inputstr2 = new Scanner(System.in);
+    System.out.println("Enter the second word for anagram: ");
+    String str2 = inputstr2.nextLine();
 
-        System.out.print(str4 + " " + str5);
+    str1 = str1.toLowerCase();
+    str2 = str2.toLowerCase();
 
+    // check if length is same
+    if(str1.length() == str2.length()) {
 
+        // convert strings to char array
+        char[] charArray1 = str1.toCharArray();
+        char[] charArray2 = str2.toCharArray();
+
+        // sort the char array
+        Arrays.sort(charArray1);
+        Arrays.sort(charArray2);
+
+        // if sorted char arrays are same
+        // then the string is anagram
+        boolean result = Arrays.equals(charArray1, charArray2);
+
+        if(result) {
+            System.out.println(str1 + " and " + str2 + " are anagram.");
+        }
+        else {
+            System.out.println(str1 + " and " + str2 + " are not anagram.");
+        }
+    }
+    else {
+        System.out.println(str1 + " and " + str2 + " are not anagram.");
     }
 }
-
+}
