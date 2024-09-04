@@ -1,11 +1,12 @@
-package exercise3;
+package org.example;
+
 import java.util.Arrays;
 import java.util.Scanner;
 
 public class Anagram {
-    public static void checkAnagram() {
+    public static void anagramChecker(){
         // create an object of Scanner class
-        Scanner input4 = new Scanner(System.in);
+        Scanner input4 = new java.util.Scanner(System.in);
 
         // take input from users
         System.out.print("Enter first String: ");
@@ -37,8 +38,6 @@ public class Anagram {
         }
 
         input4.close();
-
-
-
     }
 }
+

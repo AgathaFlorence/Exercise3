@@ -2,7 +2,7 @@ package exercise3;
 import java.util.Scanner;
 
 public class Sumdigit {
-    public static void sumdigitnumber() {
+    public static void sumDigitNumber() {
         int number, digit, sum = 0;
 
         System.out.println("Input digits e.g 1234 and this function would sum the digits");

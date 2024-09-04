@@ -1,5 +1,7 @@
 package exercise3;
 
+import org.example.Anagram;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -13,11 +15,11 @@ public class Main {
 
         Reversestring.revString();
 
-        Sumdigit.sumdigitnumber();
+        Sumdigit.sumDigitNumber();
 
-        Primenumber.isnumberprime();
+        Primenumber.isNumberpPime();
 
-        Calculator.calculatenum();
+        Calculator.calculateNum();
 
 
 
