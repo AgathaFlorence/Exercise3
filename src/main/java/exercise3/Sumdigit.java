@@ -4,6 +4,9 @@ import java.util.Scanner;
 public class Sumdigit {
     public static void sumdigitnumber() {
         int number, digit, sum = 0;
+
+        System.out.println("Input digits e.g 1234 and this function would sum the digits");
+
         Scanner num = new Scanner(System.in);
         System.out.print("Enter the number: ");
         number = num.nextInt();

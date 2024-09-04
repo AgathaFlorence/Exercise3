@@ -6,5 +6,7 @@ public class Main {
 
     Primenumber.isnumberprime();
 
+    Calculator.calculatenum();
+
     }
 }

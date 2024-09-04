@@ -4,6 +4,9 @@ import java.util.Scanner;
 public class Primenumber {
     public static void isnumberprime(){
         int i,m=0,flag=0;
+
+        System.out.println("Input number to determine whether the number is prime or not");
+
         Scanner num2 = new Scanner(System.in);
         System.out.print("Enter the number: ");
         int n = num2.nextInt();
