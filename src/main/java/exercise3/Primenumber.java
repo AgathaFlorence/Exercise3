@@ -2,7 +2,7 @@ package exercise3;
 import java.util.Scanner;
 
 public class Primenumber {
-    public static void isNumberpPime(){
+    public static void isNumberpPrime(){
         int i,m=0,flag=0;
 
         System.out.println("Input number to determine whether the number is prime or not");

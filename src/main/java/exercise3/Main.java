@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
 
 
-        Smallestnumber.smallestNumber();
+        Largestnumber.largestNumber();
 
         Sortnumber.sortnumberArray();
 
@@ -16,9 +16,11 @@ public class Main {
 
         Sumdigit.sumDigitNumber();
 
-        Primenumber.isNumberpPime();
+        Primenumber.isNumberpPrime();
 
         Calculator.calculateNum();
+
+        Anagram.anagramChecker();
 
 
 

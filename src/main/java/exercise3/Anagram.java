@@ -14,6 +14,8 @@ public class Anagram {
         System.out.print("Enter second String: ");
         String str5 = input4.nextLine();
 
+        System.out.print(str4 + " " + str5);
+
 
     }
 }
