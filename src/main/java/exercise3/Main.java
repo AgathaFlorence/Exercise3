@@ -1,9 +1,8 @@
 package exercise3;
 
-import org.example.Anagram;
-
 public class Main {
     public static void main(String[] args) {
+
 
         Smallestnumber.smallestNumber();
 
